@@ -1,0 +1,51 @@
+
+h1,h2,h3 {color: white; text-align: center;}
+h2 {
+    margin-top: 25%;
+    margin-bottom: 10%;
+}
+p, li{
+    color: white; text-align:justify;
+    margin-left: 25% ;
+    font-size:large;
+}
+li {margin-bottom: 5%;}
+body{background-color: black;}
+table {width: 100%;}
+#ThItro {
+    color: white; 
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.TdIntro {
+    color: white; 
+    height: auto;
+    border: 1px solid white;
+    text-align: center;
+}
+#Wetland {
+    width: 75%;
+    margin-top: 5% ;
+    margin-left: 10%;
+    margin-right : 10%;
+    border-radius: 5%;
+
+     
+}
+#AbUsT {
+    width: 100%;
+}
+.AbUs {
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+#Capibara {
+    width: 50%;
+    margin: 10%;
+    margin-right: 60%;
+    border-radius: 5%;
+}
+a{color: white;}
+a:hover {color: greenyellow;}
