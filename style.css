@@ -69,7 +69,7 @@ a:hover {color: greenyellow;}
     margin-right : 10%;
     border-radius: 5%
 }
-@media (max-width:600px){
+@media screen and (max-width:600px){
     #Intro{ 
         display:none;
     }
