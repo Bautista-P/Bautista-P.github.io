@@ -10,7 +10,7 @@ p, li{
     font-size:large;
 }
 li {margin-bottom: 5%;}
-body{background-color: black;}
+body{background-color: rgb(1, 68, 63);}
 table {width: 100%;}
 #ThItro {
     color: white; 
@@ -30,6 +30,7 @@ table {width: 100%;}
     margin-left: 10%;
     margin-right : 10%;
     border-radius: 5%;
+
      
 }
 #AbUsT {
@@ -46,10 +47,24 @@ table {width: 100%;}
     margin-right: 60%;
     border-radius: 5%;
 }
-.sample {width: 17,%;
+.sample {width: 11%;
     margin: 1%;
+    margin-left: 2%;
     margin-top: 1%;
     border-radius: 5%;
 }
 a{color: white;}
 a:hover {color: greenyellow;}
+
+.thTeam {
+    width: 60%;
+    border-radius: 5%}
+
+.tdTeam {margin-right : 1%;}
+
+.Description {color: white; text-align: center; font-size:120%;}
+.Logos {width: 5%;
+    margin-top: 5% ;
+    margin-left: 10%;
+    margin-right : 10%;
+    border-radius: 5%;
