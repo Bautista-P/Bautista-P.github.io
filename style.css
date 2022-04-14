@@ -67,4 +67,12 @@ a:hover {color: greenyellow;}
     margin-top: 5% ;
     margin-left: 10%;
     margin-right : 10%;
-    border-radius: 5%;
+    border-radius: 5%
+}
+@media (min-with:600px){
+    #Intro{ 
+        display:none;
+    }
+}
+
+
