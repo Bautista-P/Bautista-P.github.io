@@ -17,7 +17,12 @@ p, .Roadmap{
     margin-left: 25% ;
     font-size:large;
 }
-.Roadmap {margin-bottom: 5%;}
+
+/*Roadmap*/
+.Roadmap {
+    margin-bottom: 5%;
+    margin-right: 25%;
+}
 
 @media (max-width:1200px) {
     p {font-size: larger;}
