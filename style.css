@@ -33,7 +33,7 @@ body{background-color: rgb(1, 68, 63);}
     float: left;
     
 }
-.links a{
+.links > a{
     display: block;
     color: white;
     text-align: center;
