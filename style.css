@@ -19,6 +19,10 @@ p, .Roadmap{
 }
 .Roadmap {margin-bottom: 5%;}
 
+@media (max-width:1200px) {
+    p {font-size: larger;}
+}
+
 /*body*/
 body{
     margin: 0 auto;
