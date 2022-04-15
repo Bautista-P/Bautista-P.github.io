@@ -33,12 +33,12 @@ body{background-color: rgb(1, 68, 63);}
     float: left;
     
 }
-.links a {
+.links a{
     display: block;
-  color: white;
-  text-align: center;
-  padding: 5%;
-  text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 5%;
+    text-decoration: none;
 }
 .links a:hover:not(.active) {
     background-color: rgb(0, 34, 32);
