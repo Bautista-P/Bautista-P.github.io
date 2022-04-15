@@ -1,29 +1,57 @@
 
+
+/*Texto y su estilo */
 h1,h2,h3 {color: white; text-align: center;}
 h2 {
     margin-top: 25%;
     margin-bottom: 10%;
 }
-p, li{
+
+p, .Roadmap{
     color: white; text-align:justify;
     margin-left: 25% ;
     font-size:large;
 }
-li {margin-bottom: 5%;}
+.Roadmap {margin-bottom: 5%;}
+
+/*body*/
 body{background-color: rgb(1, 68, 63);}
-table {width: 100%;}
-#ThItro {
-    color: white; 
-    height: auto;
-    text-align: center;
+
+/*Header */
+#Header {
+    background-color: rgb(0, 53, 50);
     width: 100%;
 }
-.TdIntro {
-    color: white; 
-    height: auto;
-    border: 1px solid white;
-    text-align: center;
+#ulnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
+.links{
+    width: 25%;
+    float: left;
+    
+}
+.links a {
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 5%;
+  text-decoration: none;
+}
+.links a:hover:not(.active) {
+    background-color: rgb(0, 34, 32);
+  }
+@media (max-width:1200px){
+    .links{
+        float: none;
+        width: 100%;
+    }
+}
+table {width: 100%;}
+
+/*Foto*/
 #Wetland {
     width: 75%;
     margin-top: 5% ;
@@ -33,6 +61,7 @@ table {width: 100%;}
 
      
 }
+/*About Us */
 #AbUsT {
     width: 100%;
 }
@@ -47,32 +76,33 @@ table {width: 100%;}
     margin-right: 60%;
     border-radius: 5%;
 }
+
+/*The Capibara Gang*/
 .sample {width: 11%;
     margin: 1%;
     margin-left: 2%;
     margin-top: 1%;
     border-radius: 5%;
 }
+
+/*Links*/
 a{color: white;}
 a:hover {color: greenyellow;}
 
+/*Team*/
 .thTeam {
     width: 60%;
     border-radius: 5%}
 
 .tdTeam {margin-right : 1%;}
-
 .Description {color: white; text-align: center; font-size:120%;}
+
+/*Contactos */
 .Logos {width: 5%;
     margin-top: 5% ;
     margin-left: 10%;
     margin-right : 10%;
-    border-radius: 5%
-}
-@media screen(max-width:1200px){
-    #Intro{ 
-        display:none;
-    }
+    border-radius: 5%;
 }
 
 
