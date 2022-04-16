@@ -18,8 +18,7 @@ p, .Roadmap{
     font-size:large;
 }
 @media (max-width:1200px) {
-    h2{font-size: 200px;}
-    #AUP{font-size: 300px;}
+    h1,h2,h3,#AUP,.Description2,.Roadmap {font-size: 1000%;}
 }
 
 /*Roadmap*/
