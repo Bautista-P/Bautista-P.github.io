@@ -18,7 +18,8 @@ p, .Roadmap{
     font-size:large;
 }
 @media (max-width:1200px) {
-    h1,h2,h3,#AUP,.Description2,.Roadmap {font-size: 1000%;}
+    h1,h2,h3,.Description2,.Roadmap {font-size: 1000%;}
+    #AUP{font-size: 500%;}
 }
 
 /*Roadmap*/
@@ -168,4 +169,7 @@ a:hover {color: greenyellow;}
     margin-left: 10%;
     margin-right : 10%;
     border-radius: 5%;
+}
+@media (max-width:1200px){
+    .Logos{width: 20%;}
 }
