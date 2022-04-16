@@ -18,11 +18,11 @@ p, .Roadmap{
     font-size:large;
 }
 @media(max-width:1200px){
-    li {font-size: 100px;}
+    li {font-size: 125px;}
     h1 {font-size: 200px;}
-    h2 {font-size: 125px;}
-    p {font-size: 100px;}
-    td {font-size:100px;}
+    h2 {font-size: 150px;}
+    p {font-size: 125px;}
+    td {font-size:150px;}
 }
 
 /*Roadmap*/
