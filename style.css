@@ -17,13 +17,6 @@ p, .Roadmap{
     margin-left: 25% ;
     font-size:large;
 }
-@media(max-width:1200px){
-    li {font-size: 200px;}
-    h1 {font-size: 300px;}
-    h2 {font-size: 200px;}
-    p,#AUP {font-size: 100px;}
-    .Description2{font-size: 200px;}
-}
 
 /*Roadmap*/
 .Roadmap {
