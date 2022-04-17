@@ -179,5 +179,5 @@ a:hover {color: greenyellow;}
     border-radius: 5%;
 }
 @media (max-width:1200px){
-    .Logos{width: 20%;}
+    .Logos,.Logos1{width: 20%;}
 }
