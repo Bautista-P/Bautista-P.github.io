@@ -168,7 +168,7 @@ a:hover {color: greenyellow;}
     }
 }
 @media (min-width:1200px){
-    .Team2,.Description2{
+    .Team2,.Description2,.Names{
         display: none;
     }
 }
