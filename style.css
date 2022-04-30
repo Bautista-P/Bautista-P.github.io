@@ -18,9 +18,9 @@ p, .Roadmap{
     font-size:large;
 }
 @media (max-width:1200px){
-    h1{font-size: 128px;}
-    h2,p{font-size: 96px;}
-    h3{font-size: 75px;}
+    h1{font-size: 128pt;}
+    h2,p{font-size: 96pt;}
+    h3{font-size: 75pt;}
 }
 /*Roadmap*/
 .Roadmap {
