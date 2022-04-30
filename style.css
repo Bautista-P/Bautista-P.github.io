@@ -21,7 +21,7 @@ p, .Roadmap{
     h1{font-size: 128pt;}
     h2,p{font-size: 96pt;}
     h3{font-size: 75pt;}
-    li{font-size: 128pt;}
+    a{font-size: 128pt;}
 }
 /*Roadmap*/
 .Roadmap {
