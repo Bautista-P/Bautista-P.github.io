@@ -12,6 +12,15 @@ h2 {
     margin-bottom: 10%;
 }
 
+#Capybara {
+    color: white; text-align:justify;
+    margin-left: 25%;
+}
+#Capybara > li {
+    font-size: large;
+    margin-top: 5%;
+}
+
 p, .Roadmap{
     color: white; text-align:justify;
     margin-left: 25% ;
