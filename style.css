@@ -12,25 +12,20 @@ h2 {
     margin-bottom: 10%;
 }
 
+/* Cabybara */
+
 #Capybara {
     color: white; text-align:justify;
     margin-left: 25%;
+    margin-right:25%;
 
 }
 #Capybara > li {
     font-size: large;
     margin-top: 5%;
+    margin-right:25%;
 }
-@media (max-width:1200px){
-    #Capybara{
-        margin-left:25%;
-        margin-right: 30%;
-    }
-     #Capybara > li{
-        margin-left:25%;
-        margin-right: 30%;
-    }  
-}
+
 
 
 p, .Roadmap{
