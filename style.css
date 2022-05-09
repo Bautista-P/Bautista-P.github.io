@@ -15,11 +15,16 @@ h2 {
 #Capybara {
     color: white; text-align:justify;
     margin-left: 25%;
+
 }
 #Capybara > li {
     font-size: large;
     margin-top: 5%;
 }
+@media (max-width:1200px){
+    Capybara{margin-right: 25%;}
+}
+
 
 p, .Roadmap{
     color: white; text-align:justify;
