@@ -12,18 +12,6 @@ h2 {
     margin-bottom: 10%;
 }
 
-/* Cabybara */
-
-.CapybaraBenefit{
-    font-size: large;
-    margin-top: 5%;
-    margin-left: 25%;
-    margin-right:25%;
-    color: white; text-align:justify;
-}
-
-
-
 p, .Roadmap{
     color: white; text-align:justify;
     margin-left: 25% ;
@@ -37,15 +25,10 @@ p, .Roadmap{
     a{font-size: 18pt;}
 }
 
-/*Roadmap*/
-.Roadmap {
-    margin-bottom: 5%;
-    margin-right: 25%;
-}
+/*Links*/
+a{color: white;}
+a:hover {color: greenyellow;}
 
-@media (max-width:1200px) {
-    p {font-size: larger;}
-}
 
 /*body*/
 body{
@@ -109,36 +92,48 @@ table {width: 100%;}
      
 }
 /*About Us */
-#AbUsT {
+#about_us{
     width: 100%;
+    display: flex;
 }
-.AbUs {
-    color: white;
+#capybara_image{
+    width: 60%;
+    border-radius: 5%;
+    margin-bottom: 25%;
+}
+#description{
     text-align: center;
     width: 50%;
+    float: left;
 }
-#Capibara {
+#image_about_us{
     width: 50%;
-    margin: 10%;
-    margin-right: 60%;
-    border-radius: 5%;
+    float: left;
+    text-align: center;
 }
-#Capibara2 {
-    width: 75%;
-    margin-left: 12%;
-    margin-right: 12%;
-    border-radius: 5%;
-}
-@media (max-width:1200px) {
-    #AbUsT,.AbUs,#Capibara {
-        display: none;
+@media (max-width:1200px){
+    #about_us{
+        width: 100%;
+    }
+    #capybara_image{
+        width: 60%;
+        border-radius: 5%;
+        margin-bottom: 25%;
+    }
+    #description{
+        text-align: center;
+        width: 100%;
+        margin-right: 25%;
+    }
+    #description > p{
+        margin-right: 25%;
+    }
+    #image_about_us{
+        width: 100%;
+        text-align: center;
     }
 }
-@media (min-width:1200px){
-    #AUP, #Capibara2 {
-        display: none;
-    }
-}
+
 /*The Capibara Gang*/
 .sample {width: 11%;
     margin: 1%;
@@ -156,9 +151,25 @@ table {width: 100%;}
     }
 }
 
-/*Links*/
-a{color: white;}
-a:hover {color: greenyellow;}
+/* Cabybara */
+
+.CapybaraBenefit{
+    font-size: large;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right:25%;
+    color: white; text-align:justify;
+}
+
+/*Roadmap*/
+.Roadmap {
+    margin-bottom: 5%;
+    margin-right: 25%;
+}
+
+@media (max-width:1200px) {
+    p {font-size: larger;}
+}
 
 /*Team*/
 .thTeam {
