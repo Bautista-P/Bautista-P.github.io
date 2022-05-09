@@ -22,7 +22,13 @@ h2 {
     margin-top: 5%;
 }
 @media (max-width:1200px){
-    Capybara{margin-right: 25%;}
+    #Capybara{
+        margin-right: 25%;
+    }
+     #Capybara > li{
+        margin-right: 25%;
+    }
+   
 }
 
 
