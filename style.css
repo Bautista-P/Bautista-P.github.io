@@ -48,6 +48,7 @@ body{
 }
 #the_fauna_gang{
     width: 85%;
+    float: left;
 }
 #the_fauna_gang > h1{
    text-align: center;
