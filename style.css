@@ -53,7 +53,7 @@ body{
     display: flex;
 }
 #the_fauna_gang{
-    width: 85%;
+    width:85%;
     float: left;
 }
 #the_fauna_gang > h1{
@@ -114,6 +114,61 @@ body{
 }
 table {width: 100%;}
 
+@media(max-width:1200px){
+    #ulnav{display: none;}
+}
+/*Dropdown*/
+.drop_button {
+    background-color: rgb(0, 53, 50);
+    color: white;
+    margin-top: 10%;
+    padding-left: 10%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: centre;
+    width: 10%;
+    display: inline-block;
+    border-radius: 5%;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 53, 50);;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 10%;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(0, 34, 32)}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: rgb(0, 34, 32);
+  }
+@media(min-width:1200px){
+    .dropdown{display: none;}
+}
+@media(max-width:1200px){
+    #the_fauna_gang{
+        width:65%;
+        float: left;
+    }
+    
+}
 /*Foto*/
 #Wetland {
     width: 75%;
