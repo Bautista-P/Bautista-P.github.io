@@ -127,9 +127,9 @@ table {width: 100%;}
     cursor: pointer;
   }
   
-  .dropdown {
+  #dropdown {
     position: centre;
-    width: 10%;
+    width: 20%;
     display: inline-block;
     border-radius: 5%;
   }
