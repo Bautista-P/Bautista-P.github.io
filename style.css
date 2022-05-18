@@ -53,15 +53,15 @@ body{
     display: flex;
 }
 #the_fauna_gang{
-    width:75%;
+    width: 85%;
     float: left;
 }
 #the_fauna_gang > h1{
    text-align: center;
-   margin-left: 25%;
+   margin-left: 20%;
 }
 #language{
-    width: 20%;
+    width: 15%;
     float: left;
 }
 #language_link {
@@ -164,7 +164,7 @@ table {width: 100%;}
 }
 @media(max-width:1200px){
     #the_fauna_gang{
-        width:65%;
+        width: 65%;
         float: left;
     }
     
