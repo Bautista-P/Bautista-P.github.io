@@ -9,7 +9,7 @@ html {
 }
 /*Texto y su estilo */
 h1,h2,h3,p,li,a{
-    font-family:'Helvetica Now Display', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'HelveticaNowDisplay-Regular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1,h2,h3 {color: white; text-align: center;}
