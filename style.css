@@ -33,7 +33,7 @@ p, .Roadmap{
 
 /*Links*/
 a{color: white;}
-a:hover {color: greenyellow;}
+a:hover {color: rgb(164, 164, 4);}
 
 
 /*body*/
@@ -72,7 +72,7 @@ body{
 }
 .links a:hover:not(.active) {
     background-color: rgb(0, 34, 32);
-    color: greenyellow;
+    color: rgb(164, 164, 4);
   }
 @media (max-width:1200px){
     .links{
@@ -80,14 +80,29 @@ body{
         width: 100%;
     }
 }
+
+/* Sites */
+
 .logosContainer{
-    margin-top: 5%;
+    margin-top: 10%;
     text-align: center;
 }
-.Logos1 {
-    width: 5%;
-    margin: 5%;
-    border-radius: 5%;
+.logosContainer a{
+    margin-bottom: 10%;
+
+}
+
+.title{
+    color: rgb(164, 164, 4);
+    font-size: 50pt;
+    height: 30px;
+    text-align: center;
+}
+
+.Logos_link {
+    width: 2%;
+    margin-bottom: 5%;
+    margin: 1%;
 }
 table {width: 100%;}
 
@@ -288,10 +303,26 @@ table {width: 100%;}
     margin-right: 25%;
 }
 /*Contactos */
-.Logos {
-    width: 5%;
-    margin: 5%;   
-    border-radius: 5%;
+#logosContainer2{
+    margin-bottom:30%;
+    text-align: center;
+}
+#logosContainer2 a{
+    margin-bottom: 30%;
+
+}
+
+#title2{
+    color: rgb(164, 164, 4);
+    font-size: 50pt;
+    height: 30px;
+    text-align: center;
+}
+
+.Logos_link2 {
+    width: 2%;
+    margin-bottom: 5%;
+    margin: 1%;
 }
 @media (max-width:1200px){
     .Logos,.Logos1{width: 20%;}
