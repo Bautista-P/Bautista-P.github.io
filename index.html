@@ -8,17 +8,30 @@
     </head>
     <body>
         <!--MENU -->
+
             <!--MENU MOBIL -->
-                
-            <div id="dropdown">
-                <button id="drop_button"><img style="width: 100%;" src="images/menu_logo.png" alt="Menu"></button>
-                <div id="dropdown-content">
+
+        <div class="mobile-container" id="home">
+            <div class="topnav">
+                <a href="#home" class="active">Logo</a>
+                <div id="myLinks">
                     <a href="#AU">Acerca de nosotros</a>
                     <a href="#Road">Roadmap</a>
                     <a href="#Team">Equipo</a>
                     <a href="#JTG">Join The Gang</a>
+                    <a href="english.html">ENG</a>
+                </div id= "menu">
+                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"><img id="menu_bar" src="images/lista.png" alt="menu"></i>
+                  </a>
                 </div>
             </div>
+        </div>
+
+
+
+
+        
             <!--MENU WEB -->
 
             <ul id="ulnav">
@@ -175,5 +188,17 @@
             <a href="https://instagram.com/thefaunagang" target="_blank"><img class = "Logos_link2" src="images/Instagram.png" alt="Instagram"></a>
             <a href="https://twitter.com/TheFaunaGang" target="_blank" ><img  class = "Logos_link2" src="images/Twitter.png" alt="Twitter"></a>
         </div>
+
+        <!--Script para el menu para mobil -->
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+        </script>
     </body>
 </html>
