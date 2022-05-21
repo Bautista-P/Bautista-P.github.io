@@ -326,5 +326,5 @@ table {width: 100%;}
     margin: 1%;
 }
 @media (max-width:1200px){
-    .Logos,.Logos1{width: 20%;}
+    .Logos_link2, .Logos_link{width: 20%;}
 }
