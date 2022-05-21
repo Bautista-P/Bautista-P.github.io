@@ -60,12 +60,12 @@ body{
     float: left;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: black;
+    border-bottom-color: white;
     
 }
 .links a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 10%;
     text-decoration: none;
