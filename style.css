@@ -229,6 +229,7 @@ body{
     } 
     #description > p{
         margin-right: 25%;
+        text-align: center;
     }
     #image_about_us{
         width: 100%;
@@ -264,6 +265,12 @@ body{
     color: white; text-align:justify;
 }
 
+@media(max-width:1200px){
+    .CapybaraBenefit{
+        text-align: left;
+    }
+}
+
 /*Roadmap*/
 .Roadmap {
     margin-bottom: 5%;
@@ -276,6 +283,7 @@ body{
 
 @media (max-width:1200px) {
     p {font-size: larger;}
+    .Roadmap{text-align: left;}
 }
 
 /*Team*/
