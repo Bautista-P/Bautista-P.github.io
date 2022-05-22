@@ -145,8 +145,6 @@ body{
 }
 .logosContainer a{
     margin-bottom: 10%;
-    width: 10%;
-
 }
 
 .title{
@@ -157,17 +155,26 @@ body{
 }
 
 .Logos_link {
-
     width: 2%;
     margin-bottom: 5%;
     margin: 1%;
 }
-table {width: 100%;}
 
 @media(max-width:1200px){
-    #socialnetworks{
-        margin-top: 10%;
+    #name_title{
+        width: 100%;
+        text-align: center;
     }
+    #sites{
+        margin-top: 5%;
+    }
+    .Logos_link{
+        width: 5%;
+    }
+    .title{
+        font-size: 25pt;
+    }
+
 }
 
 /*Foto*/
@@ -335,5 +342,9 @@ table {width: 100%;}
     margin: 1%;
 }
 @media (max-width:1200px){
-    .Logos_link2, .Logos_link{width: 20%;}
+    .Logos_link2{
+        width: 5%;
+        margin-top: 5%;
+    }
+    #title2{font-size: 30pt;}
 }
