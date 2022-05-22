@@ -107,7 +107,7 @@ body{
   }
   
   .topnav a {
-    color: white;
+    color: rgb(164, 164, 4) ;;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -129,7 +129,7 @@ body{
   
   .active {
     background-color:rgb(25, 27, 27) ;
-    color: white;
+    color: rgb(164, 164, 4) ;;
   }
   #menu a:hover {
     background-color: rgb(164, 164, 4);
