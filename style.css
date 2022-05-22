@@ -269,6 +269,7 @@ body{
 @media(max-width:1200px){
     .CapybaraBenefit{
         text-align: left;
+        margin-left: 15%;
     }
 }
 
@@ -284,7 +285,8 @@ body{
 
 @media (max-width:1200px) {
     p {font-size: larger;}
-    .Roadmap{text-align: left;}
+    .Roadmap{text-align: left;
+    margin-left: 15%;}
 }
 
 /*Team*/
