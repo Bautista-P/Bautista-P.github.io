@@ -145,6 +145,7 @@ body{
 }
 .logosContainer a{
     margin-bottom: 10%;
+    width: 10%;
 
 }
 
@@ -156,14 +157,17 @@ body{
 }
 
 .Logos_link {
-    width: 10px;
+
+    width: 2%;
     margin-bottom: 5%;
     margin: 1%;
 }
 table {width: 100%;}
 
 @media(max-width:1200px){
-    .Logos_link {width:1px;}
+    #socialnetworks{
+        margin-top: 10%;
+    }
 }
 
 /*Foto*/
