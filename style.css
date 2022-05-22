@@ -40,7 +40,7 @@ a:hover {color: rgb(164, 164, 4);}
 body{
     top: 0;
     margin: 0 auto;
-    background-color: rgb(1, 68, 63);
+    background-color: rgb(35, 38, 38);
     overflow-x:hidden;
 }
 
@@ -53,7 +53,7 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(0, 53, 50);
+    background-color: rgb(21, 23, 23);
 }
 .links{
     width: 20%;
@@ -71,7 +71,7 @@ body{
     text-decoration: none;
 }
 .links a:hover:not(.active) {
-    background-color: rgb(0, 34, 32);
+    background-color: rgb(35, 38, 38);
     color: rgb(164, 164, 4);
   }
 @media (max-width:1200px){
@@ -80,6 +80,11 @@ body{
         width: 100%;
     }
 }
+@media(max-width:1200px){
+    #ulnav{display: none;}
+}
+
+
 /*menu version Mobil*/
 .mobile-container {
     width: 100%;
@@ -91,7 +96,7 @@ body{
   
   .topnav {
     overflow: hidden;
-    background-color: rgb(0, 53, 50);
+    background-color: rgb(22, 23, 23);
     position: relative;
   }
   
@@ -108,7 +113,7 @@ body{
   }
   
   .topnav a.icon {
-    background: rgb(0, 53, 50);
+    background: rgb(24, 26, 26);
     display: block;
     position: absolute;
     right: 0;
@@ -116,12 +121,12 @@ body{
   }
   
   .topnav a:hover {
-    background-color: rgb(0, 34, 32);
+    background-color: rgb(25, 27, 27);
     color: rgb(164, 164, 4);
   }
   
   .active {
-    background-color:rgb(0, 53, 50) ;
+    background-color:rgb(25, 27, 27) ;
     color: white;
   }
   #menu a:hover {
@@ -151,14 +156,14 @@ body{
 }
 
 .Logos_link {
-    width: 2%;
+    width: 10px;
     margin-bottom: 5%;
     margin: 1%;
 }
 table {width: 100%;}
 
 @media(max-width:1200px){
-    #ulnav{display: none;}
+    .Logos_link {width:1px;}
 }
 
 /*Foto*/
