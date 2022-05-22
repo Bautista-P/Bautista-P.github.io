@@ -139,7 +139,7 @@ body{
   }
  @media(min-width:1200px){
      .mobile-container{display: none;}
-     .active{margin-top:10%;}
+     .active{margin-top:30%;}
  }
 
 /* Sites */
