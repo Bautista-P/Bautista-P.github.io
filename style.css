@@ -139,7 +139,6 @@ body{
   }
  @media(min-width:1200px){
      .mobile-container{display: none;}
-     .active{margin-top:50%;}
  }
 
 /* Sites */
@@ -178,6 +177,7 @@ body{
     }
     .title{
         font-size: 25pt;
+        margin-top: 20%;
     }
 
 }
